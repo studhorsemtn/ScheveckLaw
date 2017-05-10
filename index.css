@@ -1,0 +1,16 @@
+.intro {
+    text-align: center;
+    padding: 125px 25px;
+    background: url('Images/lawJumbotron.jpg') fixed 100% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: -.2em -.2em .1em black;
+}
+
+.intro ul {
+    color: black;
+    display: inline-block;
+    text-shadow: -.1em -.1em .1em white;
+    font-weight: bolder;
+}
