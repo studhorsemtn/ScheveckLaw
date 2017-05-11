@@ -1,9 +1,14 @@
+body, html{
+  height:  100%;
+}
+
+
 h1{
   font-weight: bolder;
 }
 
 hr{
-  border-color: black;
+border:  solid 2px black;
 }
 
 .intro {
@@ -23,10 +28,33 @@ hr{
     font-weight: bolder;
 }
 
-.oil{
-  background: rgb(129, 146, 180);
+.pic{
+  width: 570px;
+  height:  240px;
+box-shadow:  2px 5px 5px white;
 }
 
-.oilpic{
-padding: 60px;
+/*=======  Oil and Gas  =======*/
+.services{
+  background: rgb(55, 63, 80);
+  color: white;
+  padding: 75px;
 }
+/*=======  End Oil and Gas  =======*/
+
+
+/*=======  Personal Injury  =======*/
+.examples {
+  display: inline-block;
+}
+
+.personal{
+  padding:  150px 0;
+}
+/*=======  End Personal Injury  =======*/
+
+/*=======  Family Law  =======*/
+.family{
+  padding: 150px 0;
+}
+/*=======  End Family Law  =======*/
