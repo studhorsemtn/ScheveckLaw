@@ -1,3 +1,11 @@
+h1{
+  font-weight: bolder;
+}
+
+hr{
+  border-color: black;
+}
+
 .intro {
     text-align: center;
     padding: 125px 25px;
@@ -13,4 +21,12 @@
     display: inline-block;
     text-shadow: -.1em -.1em .1em white;
     font-weight: bolder;
+}
+
+.oil{
+  background: rgb(129, 146, 180);
+}
+
+.oilpic{
+padding: 60px;
 }
