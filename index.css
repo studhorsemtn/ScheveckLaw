@@ -1,20 +1,30 @@
-body, html{
-  height:  100%;
+body, html {
+    height: 100%;
 }
 
-
-h1{
-  font-weight: bolder;
+h1, h2, h3, h4, h5, h6 {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
 }
 
-hr{
-border:  solid 2px black;
+h1 {
+    font-weight: bolder;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+hr {
+    border: solid 2px black;
 }
 
 .intro {
     text-align: center;
     padding: 125px 25px;
-    background: url('Images/lawJumbotron.jpg') fixed 100% 50%;
+    background: url('Images/lawJumbotron.jpg') 100% 50% fixed;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -28,33 +38,58 @@ border:  solid 2px black;
     font-weight: bolder;
 }
 
-.pic{
-  width: 570px;
-  height:  240px;
-box-shadow:  2px 5px 5px white;
+img {
+    max-width: 100%;
 }
 
-/*=======  Oil and Gas  =======*/
-.services{
-  background: rgb(55, 63, 80);
-  color: white;
-  padding: 75px;
+.pic {
+    width: 570px;
+    height: 340px;
+    box-shadow: 2px 5px 5px white;
 }
+
+.practiced {
+    text-align: center;
+    padding: 125px 25px;
+    background: url('Images/civilLaw.jpeg') 100% 65% fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: -.2em -.2em .1em black;
+}
+
+
+/*=======  Oil and Gas  =======*/
+
+.services {
+    background: rgb(55, 63, 80);
+    color: white;
+    padding: 75px;
+}
+
+
 /*=======  End Oil and Gas  =======*/
 
 
 /*=======  Personal Injury  =======*/
+
 .examples {
-  display: inline-block;
+    display: inline-block;
 }
 
-.personal{
-  padding:  150px 0;
+.personal {
+    padding: 75px 0;
 }
+
+
 /*=======  End Personal Injury  =======*/
 
+
 /*=======  Family Law  =======*/
-.family{
-  padding: 150px 0;
+
+.family {
+    padding: 75px 0;
 }
+
+
 /*=======  End Family Law  =======*/
