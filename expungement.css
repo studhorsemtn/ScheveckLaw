@@ -1,8 +1,12 @@
 .intro {
     padding: 240px 25px;
-    background: url('Images/lawJumbotron.jpg')  100% 50% fixed;
+    background: url('Images/lawJumbotron.jpg') 100% 50% fixed;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     text-shadow: -.2em -.2em .1em black;
+}
+
+p {
+    font-size: 1.4em;
 }
