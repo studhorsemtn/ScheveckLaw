@@ -1,78 +1,96 @@
-body, html {
+body,
+html
+{
     height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-weight: bold;
+
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    font-weight: bold;
 }
 
-h1 {
+h1
+{
     font-weight: bolder;
 }
 
-p {
-    font-weight: bold;
+p
+{
     font-size: 1.2em;
+    font-weight: bold;
 }
 
-hr {
+hr
+{
     border: solid 2px black;
 }
 
-.intro {
-    text-align: center;
+.intro
+{
     padding: 125px 25px;
+
+    text-align: center;
+
+    color: white;
     background: url('Images/lawJumbotron.jpg') 100% 50% fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
     text-shadow: -.2em -.2em .1em black;
 }
 
-.intro ul {
-    color: black;
-    display: inline-block;
-    text-shadow: -.1em -.1em .1em white;
+.intro ul
+{
     font-weight: bolder;
+
+    display: inline-block;
+
+    color: black;
+    text-shadow: -.1em -.1em .1em white;
 }
 
-img {
+img
+{
     max-width: 100%;
 }
 
-.navbar {
-    height: 65px;
-}
-
-.navbar-brand {
-    margin: -8px;
-}
-
-.pic {
+.pic
+{
     width: 550px;
-    height: 350px;
+    height: 250px;
+
     box-shadow: 2px 5px 5px white;
 }
 
-.practiced {
-    text-align: center;
+.practiced
+{
     padding: 125px 25px;
-    background: url('Images/civilLaw.jpeg') 100% 65% fixed;
+
+    text-align: center;
+
+    color: white;
+    background: url('Images/lawJumbotron.jpg') 100% 55% fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
     text-shadow: -.2em -.2em .1em black;
 }
 
 
 /*=======  Oil and Gas  =======*/
 
-.services {
-    background: rgb(55, 63, 80);
-    color: white;
+.services
+{
     padding: 75px;
+
+    color: white;
+    background: rgb(55, 63, 80);
 }
 
 
@@ -81,13 +99,15 @@ img {
 
 /*=======  Personal Injury  =======*/
 
-.examples {
+.examples
+{
     display: inline-block;
 }
 
-.personal {
+/*.personal
+{
     padding: 75px 0;
-}
+}*/
 
 
 /*=======  End Personal Injury  =======*/
@@ -95,7 +115,8 @@ img {
 
 /*=======  Family Law  =======*/
 
-.family {
+.family
+{
     padding: 75px 0;
 }
 
