@@ -1,5 +1,22 @@
 body, html {
     height: 100%;
+    background: url('Images/background.jpg') 100% 55% fixed;
+}
+
+.about {
+    background: url('Images/background.jpg') 100% 55% fixed;
+}
+
+.btn {
+    color: white;
+    font-weight: bold;
+    text-shadow: none;
+    border: none !important;
+    margin: 0 10px;
+}
+
+.btn-success {
+    background: rgb(25, 135, 43);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,11 +29,6 @@ h1 {
     font-weight: bolder;
 }
 
-p {
-    font-size: 1.4em;
-    font-weight: bold;
-}
-
 hr {
     border: solid 2px black;
 }
@@ -24,11 +36,11 @@ hr {
 .intro {
     padding: 125px 25px;
     text-align: center;
-    color: black;
+    color: rgb(214, 145, 28);
     background: url('Images/lawJumbotron.jpg') 100% 50% fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    text-shadow: -.1em -.1em .1em white;
+    text-shadow: -.1em -.1em .1em black;
 }
 
 .intro ul {
@@ -38,51 +50,58 @@ hr {
     text-shadow: -.1em -.1em .1em white;
 }
 
-img {
+
+/*img {
     max-width: 100%;
+}*/
+
+.jumbotron {
+    margin: 0;
 }
 
 .navbar-brand {
     position: absolute;
-    top: -5px;
-    text-align: center;
-    margin: auto;
+    margin: -4px;
+}
+
+p {
+    font-size: 1.4em;
+    font-weight: bold;
 }
 
 .pic {
-    width: 550px;
+    width: 250px;
     height: 250px;
     box-shadow: 2px 5px 5px white;
 }
 
 .practiced {
-    padding: 125px 25px;
+    padding: 200px 25px;
     text-align: center;
     font-weight: bold;
-    color: black;
+    color: rgb(214, 145, 28);
     background: url('Images/lawJumbotron.jpg') 100% 55% fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    text-shadow: -.1em -.1em .1em white;
+    text-shadow: -.1em -.1em .1em black;
 }
-
-
-/*=======  Oil and Gas  =======*/
 
 .services {
-    padding: 75px;
-    color: white;
-    background: rgb(55, 63, 80);
+    padding: 50px;
+    color: black;
+    background: white url('Images/background.jpg') 100% 65% fixed;
 }
-
-
-/*=======  End Oil and Gas  =======*/
 
 
 /*=======  Personal Injury  =======*/
 
 .examples {
     display: inline-block;
+}
+
+.examples li {
+    font-size: 1.2em;
+    text-align: left;
 }
 
 

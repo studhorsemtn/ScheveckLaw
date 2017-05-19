@@ -1,10 +1,40 @@
+body, html {
+    height: 100%;
+    background: url('Images/background.jpg') 100% 55% fixed;
+}
+
+.about {
+    background: url('Images/background.jpg') 100% 55% fixed;
+}
+
+.btn {
+    color: white;
+    font-weight: bold;
+    text-shadow: none;
+    border: none !important;
+    margin: 0 10px;
+}
+
+.btn-success {
+    background: rgb(25, 135, 43);
+}
+
 .intro {
-    padding: 240px 25px;
+    padding: 200px 25px;
     background: url('Images/lawJumbotron.jpg') 100% 50% fixed;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    text-shadow: -.2em -.2em .1em black;
+    text-shadow: -.1em -.1em .1em black;
+}
+
+.jumbotron {
+    margin: 0;
+}
+
+.navbar-brand {
+    position: absolute;
+    margin: -4px;
 }
 
 p {
