@@ -13,17 +13,18 @@ function Validate()
             return true;
     }
 
-function SendEmail($to = 'tri.developmentstudios@gmail.com')
+function SendEmail($to = 'studhorsemtn@gmail.com')
     {
         if(Validate() == true) {
                 $name           =   $_POST['name'];
+                $surname      = $_POST['surname'];
                 $email_address  =   $_POST['email'];
                 $message        =   $_POST['message'];
 
                 // Create the email and send the message
-                $email_subject  =   "Website Contact Form:  $name";
+                $email_subject  =   "Website Contact Form:  $name $surname";
                 $email_body     =   "You have received a new message from your website contact form.\n\n"."Here are the
-                details:\n\nName: $name\n\nEmail: $email_address\n\nMessage:\n$message";
+                details:\n\nName: $name\n\nLast Name: $surname\n\nEmail: $email_address\n\nMessage:\n$message";
                 $headers        =   "From: ScheveckLaw.com\n";
                 $headers        .= "Reply-To: $email_address";
                 // Send true on successful send.
@@ -44,7 +45,7 @@ function SendEmail($to = 'tri.developmentstudios@gmail.com')
     elseif($send == false)
         echo 'An Error Occurred.';
     else
-        echo 'Email Sent Successfully.';
+        echo 'Email Sent Successfully! We will contact you within 72 hrs.';
 
 
 
