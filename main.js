@@ -20,3 +20,10 @@ $(function () {
         });
     });
 });
+
+// toggle dropdown on mouse hover, click and tap events
+$('.dropdown').on('mouseenter mouseleave click tap', function(event) {
+    if (!$('.navbar-toggle').is(':visible')) {
+        $('.dropdown-toggle').dropdown('toggle');
+    }
+});
