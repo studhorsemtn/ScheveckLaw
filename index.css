@@ -42,7 +42,7 @@ hr {
   padding: 125px 25px;
   text-align: center;
   color: rgb(214, 145, 28);
-  background: url('Images/index1.jpg') 100% 65% fixed;
+  background: url('Images/index3_opt.jpg') 100% 65% fixed;
   background-repeat: no-repeat;
   background-size: cover;
   text-shadow: -.1em -.1em .1em black;
@@ -50,15 +50,15 @@ hr {
 
 .intro p {
   font-weight: bold;
-  color: black;
-  text-shadow: -.1em -.1em .1em white;
+  color:white;
+  text-shadow: -.1em -.1em .1em black;
 }
 
 .intro ul {
   font-weight: bolder;
   display: inline-block;
-  color: black;
-  text-shadow: -.1em -.1em .1em white;
+  color: white;
+  text-shadow: -.1em -.1em .1em black;
 }
 
 .jumbotron {

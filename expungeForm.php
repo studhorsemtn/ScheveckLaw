@@ -1,4 +1,19 @@
 <?php
+require 'PHPMailer/PHPMailerAutoload.php';
+
+$mail = new PHPMailer;
+
+
+//$mail->SMTPDebug = 3;                               // Enable verbose debug output
+
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = 'studhorsemtn@gmail.com';                 // SMTP username
+$mail->Password = 'SonjaGirl0401';                           // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;                                    // TCP port to connect to
+
 function Validate()
     {
         // Check for empty fields
@@ -14,39 +29,21 @@ function Validate()
             return true;
     }
 
-function SendEmail($to = 'studhorsemtn@gmail.com')
-    {
-        if(Validate() == true) {
-                $name           =   $_POST['name'];
-                $surname      = $_POST['surname'];
-                $email_address  =   $_POST['email'];
-                $message        =   $_POST['message'];
+    $mail->setFrom( 'lyscheve@gmail.com', 'Lydon Scheveck', $auto = false);
+    $mail->addAddress('bryon.elvbakken@gmail.com');     // Add a recipient
 
-                // Create the email and send the message
-                $email_subject  =   "Website Contact Form:  $name $surname";
-                $email_body     =   "You have received a new message from your website contact form.\n\n"."Here are the details:
-                  \n\nName: $name\n\nLast Name: $surname\n\nEmail: $email_address\n\nMessage:\n$message";
-                $headers        =   "From: ScheveckLaw.com\n";
-                $headers        .= "Reply-To: $email_address";
-                // Send true on successful send.
-                // Send false if failed
-                return (mail($to,$email_subject,$email_body,$headers)) ? true: false;
-            }
-        // else
-        //     // Invalid inputs
-        //     return 'err';
+    $mail->addReplyTo($_POST['email'], $_POST['name']);
+
+    $mail->Subject = 'Expungement Request';
+    $mail->Body    = $_POST['message'];
+
+
+    if(!$mail->send()) {
+        echo 'Message could not be sent.';
+        echo 'Mailer Error: ' . $mail->ErrorInfo;
+    } else {
+        echo 'Message has been sent';
     }
-
-    // Apply function(s). You will get true, false, or err
-    $send   =   SendEmail();
-
-    // On return, you can echo any result
-    // if($send == 'err')
-    //     echo 'Invalid Fields.';
-    if($send == false)
-        echo 'An Error Occurred.';
-    else
-        echo 'Email Sent Successfully! We will contact you within 72 hrs.';
 
 
 
