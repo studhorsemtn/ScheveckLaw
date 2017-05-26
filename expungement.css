@@ -16,6 +16,12 @@ body {
   background: rgb(25, 135, 43);
 }
 
+footer{
+  background: black;
+  color: rgb(214, 145, 28);
+  padding: 8px;
+}
+
 .intro {
   padding: 200px 25px;
   color: rgb(214, 145, 28);

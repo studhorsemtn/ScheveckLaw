@@ -1,7 +1,7 @@
 body {
   background: -webkit-linear-gradient(grey,white );
   height: 100%;
-  /*background: url('Images/background.jpg') no-repeat 100% 75%;*/
+
 }
 
 .btn {
@@ -28,6 +28,16 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+footer{
+  background: black;
+  color: rgb(214, 145, 28);
+  padding: 8px;
+}
+
+footer img{
+  margin: 4px;
 }
 
 h1 {
@@ -73,7 +83,7 @@ hr {
 p {
   font-size: 1.4em;
   font-weight: bold;
-  color: black:;
+  color: black;
 }
 
 .pic {
