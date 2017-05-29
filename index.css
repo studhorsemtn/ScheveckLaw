@@ -36,9 +36,7 @@ footer{
   padding: 8px;
 }
 
-/*footer img{
-  margin: 4px;
-}*/
+
 
 h1 {
   font-weight: bolder;
@@ -49,10 +47,11 @@ hr {
 }
 
 .intro {
+
   padding: 125px 25px;
   text-align: center;
   color: rgb(214, 145, 28);
-  background: url('Images/index3_opt.jpg') 100% 65% fixed;
+  background: url('Images/index3_opt.jpg') center center fixed;
   background-repeat: no-repeat;
   background-size: cover;
   text-shadow: -.1em -.1em .1em black;
@@ -97,7 +96,7 @@ p {
   padding: 200px 25px;
   text-align: center;
   color: rgb(214, 145, 28);
-  background: url('Images/lawJumbotron2.jpg') 100% 55% fixed;
+  background: url('Images/lawJumbotron2.jpg') center center fixed;
   background-repeat: no-repeat;
   background-size: cover;
   text-shadow: -.1em -.1em .1em black;

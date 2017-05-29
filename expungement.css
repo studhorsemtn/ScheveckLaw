@@ -1,7 +1,7 @@
 body {
   background: -webkit-linear-gradient(grey,white );
   height: 100%;
-  /*background: url('Images/background.jpg') no-repeat 100% 75%;*/
+
 }
 
 .btn {
@@ -25,7 +25,7 @@ footer{
 .intro {
   padding: 200px 25px;
   color: rgb(214, 145, 28);
-  background: url('Images/lawJumbotron2.jpg') 100% 50% fixed;
+  background: url('Images/lawJumbotron2.jpg') center center fixed;
   background-repeat: no-repeat;
   background-size: cover;
   text-shadow: -.1em -.1em .1em black;
@@ -33,8 +33,8 @@ footer{
 
 .intro p {
   font-weight: bold;
-  color: black;
-  text-shadow: -.1em -.1em .1em white;
+  color: white;
+  text-shadow: -.1em -.1em .1em black;
 }
 
 .jumbotron {
