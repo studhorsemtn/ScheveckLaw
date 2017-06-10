@@ -29,7 +29,7 @@ function Validate()
             return true;
     }
 
-    $mail->setFrom( 'bryon.elvbakken@gmail.com', 'Lydon Scheveck', $auto = false);
+    $mail->setFrom(  'name', $auto = false);
     $mail->addAddress('studhorsemtn@gmail.com');     // Add a recipient
 
     $mail->addReplyTo($_POST['email'], $_POST['name']);
@@ -42,7 +42,7 @@ function Validate()
         echo 'Message could not be sent.';
         echo 'Mailer Error: ' . $mail->ErrorInfo;
     } else {
-      echo '<script type="text/javascript"> alert ("Thank you, your message has been sent. We will contact you within 72 hrs."); window.history.back(); </script>';
+      echo '<script type="text/javascript"> alert ("Thank you, your message has been sent. We will contact you within 24 hrs."); window.history.back(); </script>';
         // header('Location:form.html');
         // echo 'Message has been sent';
 
