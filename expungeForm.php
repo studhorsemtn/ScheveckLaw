@@ -17,8 +17,7 @@ $mail->Port = 587;                                    // TCP port to connect to
 function Validate()
     {
         // Check for empty fields
-        if(empty($_POST['name'])            ||
-                empty($_POST['surname'])   ||
+        if(empty($_POST['name'])            ||                
                 empty($_POST['email'])        ||
                 empty($_POST['message'])   ||
                 !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)) {

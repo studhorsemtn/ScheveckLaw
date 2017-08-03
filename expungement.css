@@ -1,52 +1,55 @@
 body {
-  background: -webkit-linear-gradient(grey,white );
-  height: 100%;
-
+    background: -webkit-linear-gradient(grey, white);
+    height: 100%;
 }
 
 .btn {
-  font-weight: bold;
-  margin: 0 10px;
-  color: white;
-  border: none !important;
-  text-shadow: none;
+    font-weight: bold;
+    margin: 0 10px;
+    color: white;
+    border: none !important;
+    text-shadow: none;
 }
 
 .btn-success {
-  background: rgb(25, 135, 43);
+    background: rgb(25, 135, 43);
 }
 
-footer{
-  background: black;
-  color: rgb(214, 145, 28);
-  padding: 8px;
+footer {
+    background: black;
+    color: rgb(214, 145, 28);
+    padding: 8px;
 }
 
 .intro {
-  padding: 200px 25px;
-  color: rgb(214, 145, 28);
-  background: url('Images/lawJumbotron2.jpg') center center fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-shadow: -.1em -.1em .1em black;
+    padding: 200px 25px;
+    color: rgb(214, 145, 28);
+    background: url('Images/lawJumbotron2.jpg') center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: -.1em -.1em .1em black;
 }
 
 .intro p {
-  font-weight: bold;
-  color: white;
-  text-shadow: -.1em -.1em .1em black;
+    font-weight: bold;
+    color: white;
+    text-shadow: -.1em -.1em .1em black;
 }
 
 .jumbotron {
-  margin: 0;
+    margin-top: 175px;
+}
+
+.navbar-collapse {
+    padding-top: 51px;
 }
 
 .navbar-brand {
-  position: absolute;
-  margin: -4px;
+    width: 169px;
+    height: auto;
 }
 
 p {
-  font-size: 1.4em;
-  font-weight: bold;
+    font-size: 1.4em;
+    font-weight: bold;
 }
