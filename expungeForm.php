@@ -7,12 +7,12 @@ $mail = new PHPMailer;
 $mail->SMTPDebug = 2;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-$mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'schevecklaw@gmail.com';                 // SMTP username
-$mail->Password = 'Montana24';                           // SMTP password
-$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 587;                                    // TCP port to connect to
+$mail->Host = 'localhost';  // Specify main and backup SMTP servers
+// $mail->SMTPAuth = true;                               // Enable SMTP authentication
+// $mail->Username = 'schevecklaw@gmail.com';                 // SMTP username
+// $mail->Password = 'Montana24';                           // SMTP password
+// $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+// $mail->Port = 587;                                    // TCP port to connect to
 
 function Validate()
     {
@@ -30,7 +30,7 @@ function Validate()
     }
 
     $mail->setFrom(  'schevecklaw@gmail.com', $_POST['name']);
-    $mail->addAddress('schevecklaw@gmail.com');     // Add a recipient
+    $mail->addAddress('studhorsemtn@gmail.com');     // Add a recipient
 
     $mail->addReplyTo($_POST['email'], $_POST['name']);
 
