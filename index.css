@@ -1,234 +1,175 @@
- a
-{
-    border-radius: 50%;
-    max-width: 150px;
-    margin: auto;
-}
+ a {
+     border-radius: 50%;
+     max-width: 150px;
+     margin: auto;
+ }
 
-body
-{
-    height: 100%;
+ body {
+     height: 100%;
+     background: -webkit-linear-gradient(grey, white);
+ }
 
-    background: -webkit-linear-gradient(grey, white);
-}
+ .btn {
+     font-weight: bold;
+     margin: 0 10px;
+     color: white;
+     border: none !important;
+     text-shadow: none;
+ }
 
-.btn
-{
-    font-weight: bold;
+ .btn-success {
+     background: rgb(25, 135, 43);
+ }
 
-    margin: 0 10px;
+ .dropdown-menu {
+     height: 100px;
+     background: rgb(107, 104, 125);
+ }
 
-    color: white;
-    border: none !important;
-    text-shadow: none;
-}
+ .dropdown-toggle {
+     border-radius: 50%;
+ }
 
-.btn-success
-{
-    background: rgb(25, 135, 43);
-}
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-weight: bold;
+     -webkit-font-smoothing: antialiased;
+     text-rendering: optimizeLegibility;
+ }
 
-.dropdown-menu
-{
+ footer {
+     padding: 8px;
+     color: rgb(214, 145, 28);
+     background: black;
+ }
 
-    height:100px;
+ footer .img-responsive {
+     max-width: 50%;
+     height: auto;
+ }
 
-    background: rgb(107, 104, 125);
+ footer h5 {
+     color: white;
+ }
 
-}
+ .fa-bars {
+     color: white;
+ }
 
+ h1 {
+     font-weight: bolder;
+ }
 
+ hr {
+     border: solid 2px white;
+ }
 
-.dropdown-toggle
-{
-    border-radius: 50%;
-}
+ .intro {
+     padding: 125px 25px;
+     text-align: center;
+     color: rgb(214, 145, 28);
+     background: url('Images/index3_opt.jpg') center center fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-shadow: -.1em -.1em .1em black;
+ }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6
-{
-    font-weight: bold;
+ .intro p {
+     font-weight: bold;
+     color: white;
+     text-shadow: -.1em -.1em .1em black;
+ }
 
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-}
+ .intro ul {
+     font-weight: bolder;
+     display: inline-block;
+     color: white;
+     text-shadow: -.1em -.1em .1em black;
+ }
 
-footer
-{
-    padding: 8px;
+ .jumbotron {
+     margin-top: 145px;
+ }
 
-    color: rgb(214, 145, 28);
-    background: black;
-}
+ #nav_bar li>a {
+     color: white;
+     background: none;
+ }
 
-footer .img-responsive
-{
-    max-width: 50%;
-    height: auto;
-}
+ .collapse.navbar-collapse {
+     margin: auto;
+ }
 
-footer h5
-{
-    color: white;
-}
+ .navbar-collapse ul {
+     text-align: center;
+     margin: 45px auto;
+ }
 
-.fa-bars
-{
-    color: white;
-}
+ .navbar-brand {
+     max-width: 169px;
+     height: auto;
+     padding-left: auto;
+     margin-right: auto;
+ }
 
-h1
-{
-    font-weight: bolder;
-}
+ .navbar-brand img {
+     display: block;
+     max-width: 75%;
+     height: auto;
+     margin-left: 50px;
+ }
 
-hr
-{
-    border: solid 2px white;
-}
+ p {
+     font-size: 1.4em;
+     font-weight: bold;
+     color: black;
+ }
 
-.intro
-{
-    padding: 125px 25px;
+ .pic {
+     width: 250px;
+     height: 250px;
+     box-shadow: 2px 5px 5px white;
+ }
 
-    text-align: center;
+ .practiced {
+     font-weight: bold;
+     padding: 200px 25px;
+     text-align: center;
+     color: rgb(214, 145, 28);
+     background: url('Images/lawJumbotron2.jpg') center center fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-shadow: -.1em -.1em .1em black;
+ }
 
-    color: rgb(214, 145, 28);
-    background: url('Images/index3_opt.jpg') center center fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-shadow: -.1em -.1em .1em black;
-}
+ .services {
+     color: black;
+ }
+ /*=======  Personal Injury  =======*/
 
-.intro p
-{
-    font-weight: bold;
+ .examples {
+     font-size: 1.4em;
+     display: inline-block;
+ }
 
-    color: white;
-    text-shadow: -.1em -.1em .1em black;
-}
+ .examples li {
+     font-weight: bold;
+     list-style: none;
+     text-align: left;
+     color: white;
+ }
 
-.intro ul
-{
-    font-weight: bolder;
+ .examples i {
+     color: black;
+ }
+ /*=======  End Personal Injury  =======*/
 
-    display: inline-block;
-
-    color: white;
-    text-shadow: -.1em -.1em .1em black;
-}
-
-.jumbotron
-{
-    margin-top: 145px;
-}
-
-#nav_bar li>a{
-  color: white;
-  background: none;
-}
-
-.collapse.navbar-collapse{
-  margin: auto;
-}
-
-.navbar-collapse ul{
-  text-align: center;
-    margin:  45px auto;
-}
-
-
-
-.navbar-brand
-{
-    max-width: 169px;
-    height: auto;
-    padding-left: auto;
-    margin-right: auto;
-}
-
-
-
-.navbar-brand img
-{
-    display: block;
-
-    max-width: 75%;
-    height: auto;
-    margin-left: 50px;
-}
-
-p
-{
-    font-size: 1.4em;
-    font-weight: bold;
-
-    color: black;
-}
-
-.pic
-{
-    width: 250px;
-    height: 250px;
-
-    box-shadow: 2px 5px 5px white;
-}
-
-.practiced
-{
-    font-weight: bold;
-
-    padding: 200px 25px;
-
-    text-align: center;
-
-    color: rgb(214, 145, 28);
-    background: url('Images/lawJumbotron2.jpg') center center fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-shadow: -.1em -.1em .1em black;
-}
-
-.services
-{
-    color: black;
-}
-
-
-/*=======  Personal Injury  =======*/
-
-.examples
-{
-    font-size: 1.4em;
-
-    display: inline-block;
-}
-
-.examples li
-{
-    font-weight: bold;
-
-    list-style: none;
-
-    text-align: left;
-
-    color: white;
-}
-
-.examples i
-{
-    color: black;
-}
-
-
-/*=======  End Personal Injury  =======*/
-
-@media only screen (max-width: 767px;) {
-  .collapse.navbar-collapse.in{
-    margin-left: 0;
-  }
-}
+ @media only screen and (max-width:767px) {
+     .collapse.navbar-collapse.in {
+         margin-left: 0;
+     }
+ }
