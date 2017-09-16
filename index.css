@@ -72,9 +72,8 @@
      padding: 125px 25px;
      text-align: center;
      color: rgb(214, 145, 28);
-     background: url('Images/law-books.png') center center fixed;
-     background-repeat: no-repeat;
-     background-size: cover;
+     background: url('Images/law-books.jpg') center center no-repeat;
+     background-size: 100% 100%;
      text-shadow: -.1em -.1em .1em black;
  }
 
