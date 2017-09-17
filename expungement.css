@@ -57,9 +57,9 @@ footer .img-responsive {
 }
 
 .intro {
-    padding: 200px 25px;
+    padding: 100px 25px;
     color: rgb(214, 145, 28);
-    background: url('Images/lawJumbotron.jpg') center center fixed;
+    background: url('Images/lawJumbotron2.jpg') center center no-repeat;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     text-shadow: -.1em -.1em .1em black;
