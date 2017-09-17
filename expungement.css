@@ -7,6 +7,7 @@ a {
 body {
     height: 100%;
     background: -webkit-linear-gradient(grey, white);
+    font-family: 'Libre Baskerville', serif;
 }
 
 .btn {
@@ -67,7 +68,7 @@ footer .img-responsive {
 .intro p {
     font-weight: bold;
     color: white;
-    text-shadow: -.1em -.1em .1em black;
+    text-shadow: -.1em -.1em 0 black;
 }
 
 .jumbotron {

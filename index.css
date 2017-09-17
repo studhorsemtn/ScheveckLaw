@@ -7,6 +7,7 @@
  body {
      height: 100%;
      background: -webkit-linear-gradient(grey, white);
+     font-family: 'Libre Baskerville', serif;
  }
 
  .btn {
@@ -69,7 +70,7 @@
  }
 
  .intro {
-     padding: 125px 25px;
+     padding: 100px 25px;
      text-align: center;
      color: rgb(214, 145, 28);
      background: url('Images/law-books.jpg') center center no-repeat;
@@ -143,6 +144,10 @@
      background-repeat: no-repeat;
      background-size: 100% 100%;
      text-shadow: -.1em -.1em .1em black;
+ }
+
+ .practiced p {
+     text-shadow: 2px 2px 0 black;
  }
 
  .services {
