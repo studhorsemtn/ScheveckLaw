@@ -1,49 +1,38 @@
-a{
-  border-radius: 50%;
-  max-width: 150px;
-  margin: auto;
+a {
+    border-radius: 50%;
+    max-width: 150px;
+    margin: auto;
 }
 
-
-body
-{
+body {
     height: 100%;
-
     background: -webkit-linear-gradient(grey, white);
 }
 
-.btn
-{
+.btn {
     font-weight: bold;
-
     margin: 0 10px;
-
     color: white;
     border: none !important;
     text-shadow: none;
 }
 
-.btn-success
-{
+.btn-success {
     background: rgb(25, 135, 43);
 }
 
-.dropdown-menu
-{
-  color: white;
+.dropdown-menu {
+    color: white;
     background: grey;
     height: 100px;
-
 }
 
-.dropdown-menu li
-{
+.dropdown-menu li {
     color: white;
     border: none;
 }
 
-.dropdown-toggle
-{
+.dropdown-toggle {
     border-radius: 50%;
 }
 
@@ -53,80 +42,67 @@ footer {
     padding: 8px;
 }
 
-footer h5{
-  color: white;
+footer h5 {
+    color: white;
 }
 
-footer .img-responsive{
-  max-width: 50%;
-  height: auto;
+footer .img-responsive {
+    max-width: 50%;
+    height: auto;
 }
 
-.fa-bars{
-  color: white;
+.fa-bars {
+    color: white;
 }
 
-.intro
-{
+.intro {
     padding: 200px 25px;
-
     color: rgb(214, 145, 28);
-    background: url('Images/lawJumbotron2.jpg') center center fixed;
+    background: url('Images/lawJumbotron.jpg') center center fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     text-shadow: -.1em -.1em .1em black;
 }
 
-.intro p
-{
+.intro p {
     font-weight: bold;
-
     color: white;
     text-shadow: -.1em -.1em .1em black;
 }
 
-.jumbotron
-{
+.jumbotron {
     margin-top: 145px;
 }
 
-#nav_bar li>a{
-  color: white;
-  background: none;
+#nav_bar li>a {
+    color: white;
+    background: none;
 }
 
-.collapse.navbar-collapse{
-  margin-left: auto;
+.collapse.navbar-collapse {
+    margin-left: auto;
 }
 
-.navbar-collapse ul{
-  text-align: center;
-    margin:  45px auto;
+.navbar-collapse ul {
+    text-align: center;
+    margin: 45px auto;
 }
 
-
-
-.navbar-brand
-{
+.navbar-brand {
     max-width: 169px;
     height: auto;
     padding-left: auto;
     margin-right: auto;
 }
 
-
-
-.navbar-brand img
-{
+.navbar-brand img {
     display: block;
-
     max-width: 75%;
     height: auto;
     margin-left: 50px;
 }
 
-p
-{
+p {
     font-size: 1.4em;
     font-weight: bold;
 }
